@@ -1,0 +1,148 @@
+div#title {
+  height: 100vh;
+  animation-name:bground;
+  animation-duration:15s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  min-height: 600px;
+}
+
+@keyframes bground{
+  0%{
+      background-image: url(../img/title0003.jpg);
+  }
+  50%{
+      background-image: url(../img/title0002.jpg);
+  }
+  100%{
+      background-image: url(../img/title0001.jpg);
+  }
+}
+
+div#title .wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+div#title .wrap .stxt {
+
+}
+div#title .wrap .stxt h2 {
+
+}
+div#title .wrap .stxt h2.stxt1 {
+  animation-name:txt;
+  animation-duration:1s;
+  animation-delay:0.6s;
+  animation-direction:reverse;
+  animation-fill-mode:forwards;
+  animation-timing-function: ease-in;
+  opacity:0;
+}
+
+div#title .wrap .stxt h2.stxt1{
+  transform: translateY(-10px);
+}
+
+div#title .wrap .stxt h2.stxt2 {
+  animation-name:txt;
+  animation-duration:1s;
+  animation-delay:1s;
+  animation-direction:reverse;
+  animation-fill-mode:forwards;
+  opacity:0;
+  animation-timing-function: ease-in;  
+}
+div#title .wrap .stxt h2.stxt3 {
+  animation-name:txt;
+  animation-duration:1s;
+  animation-delay:1.4s;
+  animation-direction:reverse;
+  animation-fill-mode:forwards;
+  opacity:0;
+  animation-timing-function: ease-in;
+}
+div#title .wrap .stxt h2.stxt4 {
+  animation-name:txt;
+  animation-duration:1s;
+  animation-delay:1.8s;
+  animation-direction:reverse;
+  animation-fill-mode:forwards;
+  opacity:0;
+  animation-timing-function: ease-in;
+}
+div#title .wrap .txt_T {
+  padding: 15px 0;
+}
+div#title .wrap .txt_T p {
+
+}
+div#title .wrap .txt_T p.txt1 {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-name:txt;
+  animation-delay: 0.6s;
+  animation-duration: 1s;
+  animation-direction: reverse;
+}
+div#title .wrap .txt_T p.txt2 {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-name:txt;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-direction: reverse;
+}
+
+div#title .wrap .txt_T p.txt3{
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-name:txt;
+  animation-delay: 1.4s;
+  animation-duration: 1s;  
+  animation-direction: reverse;
+} 
+div#title .wrap .txt_B {
+
+}
+div#title .wrap .txt_B p {
+
+}
+div#title .wrap .txt_B p.txt4 {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-name:txt;
+  animation-delay: 1.8s;
+  animation-duration: 1s;  
+  animation-direction: reverse;
+}
+div#title .wrap .txt_B p.txt5 {
+  opacity: 0;
+  animation-fill-mode: forwards; 
+  animation-name:txt;
+  animation-delay: 2.2s;
+  animation-duration: 1s;  
+  animation-direction: reverse;
+}
+div#title .wrap .txt_B p.txt6 {
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-name: txt;
+  animation-duration: 1s;
+  animation-delay: 2.6s;
+  animation-direction: reverse;
+}
+@keyframes txt{
+  0%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}

@@ -1,0 +1,306 @@
+@media screen and (max-width:1280px){
+  .ham{ 
+  height: 21px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  }
+  
+  .ham span{
+  background-color: black;
+  width: 25px;
+  height: 3px;
+  display: block;
+  }
+  
+  
+.h1{
+  font-size: calc(64px * 0.85);
+}
+.h2{
+  font-size: calc(54px * 0.85);
+}
+.h3{
+  font-size: calc(44px * 0.85);
+}
+.h4{
+  font-size: calc(34px * 0.85);
+}
+.h5{
+  font-size: calc(24px * 0.85);
+}
+.h6{
+  font-size: calc(20px * 0.85);
+}
+.p{
+  font-size: calc(16px * 0.85);
+}
+.p14{
+  font-size: calc(14px * 0.85);
+}
+  .wrap{
+  padding: 0 15px;
+  }
+  header .wrap span.lang{ 
+  display: none;
+  }
+  
+/*  타이틀  */
+  div#title{
+  background-repeat: no-repeat;
+  }
+  
+/* promotion   */
+  section#promotion .wrap iframe{
+  width: calc(100vw - 30px);
+  height: 36.25vw;
+  }
+
+  
+/*  business  */
+  section#business .wrap h2{  
+  margin-left: 150px;
+  }
+  
+  section#business .wrap p.black30B{
+  margin-left: 150px;
+  }
+  
+  section#business .wrap ul li{
+  width: calc(50vw * 0.8);
+  height: calc(50vw * 0.8);
+  }
+  
+/* products   */
+  section#products .wrap h2{
+  left: 20px;
+  top: -33px;
+  }
+  
+  section#products .wrap div article{
+  width: 132px;
+  }
+  
+/*  news  */
+  section#news .wrap hgroup h2{
+  top: 0;
+  left: 15px;
+  }
+  
+  section#news .wrap hgroup h3{
+  padding: 0;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  }
+
+  section#news .wrap ul li article a p.text{
+  width: 98%;
+  line-height: 20px;
+  font-size: 13px;
+  }
+  
+/*  footer  */
+  footer .wrap ul.pnb{
+  width: 51%;
+  }
+  footer .wrap ul.pnb li a{
+  font-size: calc(16px * 0.6);
+  }
+}
+
+
+
+
+
+@media screen and (max-width:980px){
+.h1{
+  font-size: calc(64px * 0.4);
+}
+.h2{
+  font-size: calc(54px * 0.7);
+}
+.h3{
+  font-size: calc(44px * 0.4);
+}
+.h4{
+  font-size: calc(34px * 0.4);
+}
+.h5{
+  font-size: calc(24px * 0.4);
+}
+.h6{
+  font-size: calc(20px * 0.5);
+}
+.p{
+  font-size: calc(16px * 0.5);
+}
+.p14{
+  font-size: calc(14px * 0.5);
+}
+  
+  /*  header  */
+  header .wrap ul{
+  display: none;
+  }
+/*  title  */
+  div#title{
+  height: 70vh;
+  }
+  
+/*   promotion   */
+  section#promotion{
+  height: 20vh;
+  }
+  
+  section#promotion .wrap h2{
+  font-size: calc(18px * 0.7);
+  left: 20px;
+  }
+  
+  section#promotion .wrap p{
+    
+  font-size: calc(40px * 0.6);
+  line-height: 27px;
+  left: 21px;
+  width: calc(100% - 30px);
+  }
+/*  business  */
+  section#business{
+    
+  height: 50vh;
+  }
+  section#business .wrap h2{   
+  font-size: calc(18px * 0.7);
+  }
+  
+  section#business .wrap p.black30B{ 
+  font-size: calc(40px * 0.6);
+  line-height: 27px;
+  }
+  
+   section#business .wrap ul{
+  display: initial;
+  }
+  
+  section#business .wrap ul li{
+  width: calc(100vw - 30px);
+  margin-bottom: 20px;
+  background-position: center bottom;
+    
+  }
+  
+  section#business .wrap ul li a h3{
+  font-size: calc(90px * 0.4);
+  }
+  
+  section#business .wrap ul li a p.p{
+  display: none;
+  font-size: calc(17px * 0.75);
+  }
+  
+  section#business .wrap ul li:hover a p.p{
+    display: initial;
+  }
+  
+  section#business .wrap ul li:nth-child(1) a p.p{
+    color:white;
+  }
+  
+/* products   */
+  
+  section#products{
+    
+  height: 150vh;
+  }
+  section#products .wrap h2{
+    
+  top: 10px;
+  }
+  
+  section#products .wrap div{
+  display: initial;
+  }
+  
+  section#products .wrap div article{
+  width: calc(100vw - 30px);
+  height: 50vw;
+  background-size: 90%;
+  margin: 0px -7px;
+  }
+  section#products .wrap div article:nth-child(1){
+    background-image:url(../img/paper_01.jpg);
+  }
+    section#products .wrap div article:nth-child(2){
+    background-image:url(../img/paper_02.jpg);
+  }
+    section#products .wrap div article:nth-child(3){
+    background-image:url(../img/paper_03.jpg);
+  }
+    section#products .wrap div article:nth-child(4){
+    background-image:url(../img/paper_04.jpg);
+  }
+    section#products .wrap div article:nth-child(5){
+    background-image:url(../img/paper_05.jpg);
+  }
+    section#products .wrap div article:nth-child(6){
+    background-image:url(../img/paper_06.jpg);
+  }
+    section#products .wrap div article:nth-child(7){
+    background-image:url(../img/paper_07.jpg);
+  }
+  section#products .wrap div article:nth-child(odd){
+  transform: translateY(0);
+  }
+    
+  section#products .wrap div article p{
+  /*! display: initial; */
+  line-height: 20px;
+  width: 86%;
+  padding: 0 23px;
+  }
+  
+  section#products .wrap div article p span{
+  display: initial;
+  }
+  
+/*  news  */
+  section#news{
+    
+  height: 50vh;
+  }
+  
+  section#news .wrap ul li{
+  display: initial;
+  }
+  
+  section#news .wrap ul li article{
+  margin-bottom: 30px;
+  width: calc(100vw - 30px);
+  height: 20vw;
+  }
+  section#news .wrap ul li article a{
+  background-repeat: no-repeat;
+  display: initial;
+  }
+  
+  section#news .wrap ul li article a p.p{  
+  font-size: 13px;
+  bottom: 70px;
+  }
+  
+  /* footer */
+  footer .wrap ul.pnb{
+  width: 100%;
+  }
+  
+  footer .wrap ul.pnb li{
+  }
+  footer .wrap ul.pnb li a{
+  }
+  footer .wrap .flex ul.fnb{
+  display: none;
+  }
+  footer .wrap ul.pnb li:nth-child(n) a{padding: 0 6px 0 0;}
+}

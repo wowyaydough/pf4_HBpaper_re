@@ -1,0 +1,245 @@
+/*  promotion */
+
+section#promotion {
+  
+  position: relative;
+}
+section#promotion .wrap {
+  height: 100%;
+  gap: 14px;
+}
+section#promotion .wrap h2 {
+  position: absolute;
+  top: 30px;
+  left: 58px;
+  border-bottom: 1px solid;
+}
+section#promotion .wrap p {
+  margin-bottom: 15px;
+  font-weight: bold;
+  position: absolute;
+  left: 57px;
+  top: 62px;
+}
+section#promotion .wrap iframe {
+  width: 40vw;
+}
+
+/* business */
+section#business {
+  width: 100%;
+  position: relative;
+}
+section#business .wrap {
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+}
+section#business .wrap h2 {
+  color: #f8b420;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  top: 30px;
+  left: -130px;
+  border-bottom: 1px solid;
+}
+section#business .wrap p.black30B {
+  line-height: 43px;
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  left: -132px;
+  top: 57px;
+}
+section#business .wrap ul {
+
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+section#business .wrap ul li {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 30px;
+  width: 500px;
+  height: 500px;
+}
+section#business .wrap ul li a {
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+section#business .wrap ul li a h3 {
+  font-weight: bold;
+  font-size: 90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgba(255,255,255,0.7);
+}
+section#business .wrap ul li:nth-child(1):hover{
+ background-image: url(../img/paperbag1.jpg);
+}
+
+section#business .wrap ul li:nth-child(2):hover{
+ background-image: url(../img/paper.jpg);
+}
+section#business .wrap ul li a p.p {
+  font-size: 17px;
+  color: #181f25;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* products */
+section#products{
+  
+  display: flex;
+  position: relative;
+}
+section#products .wrap{
+  }
+
+section#products .wrap h2 {
+
+  color: #f8b420;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+}
+ section#products .wrap ul {
+  top: 150px;
+  position: absolute;
+  width: 56%;
+  display: flex;
+  justify-content: space-between;
+}
+ section#products .wrap ul::before{
+  content:"";
+  width:1400px;
+  border-top: 1px solid;
+  position: absolute;
+  top:59px;
+  left: 60px;
+}
+ section#products .wrap ul li {
+  width: 120px;
+}
+  
+ section#products .wrap ul li a {
+  line-height: 2;
+  box-sizing: border-box;
+  text-align: center;
+}
+ section#products .wrap ul li a::before{
+  content:"";
+  width: 9px;
+  height: 9px;
+  display: block;
+  border: 1px solid #999;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  top: 54px;
+}
+ section#products .wrap ul li:first-child a{
+  padding-right: 10px;
+}
+ section#products .wrap ul li:not(:first-child) a {
+padding:0 10px;
+}
+ section#products .wrap ul li a:hover{
+  color:blue;
+}
+section#products .wrap div {
+  height: 100%;
+  display: flex;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+ section#products .wrap div article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ section#products .wrap div article:not(:first-child){
+}
+
+ section#products .wrap div article h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+ section#products .wrap div article:hover h3{
+display: none;  
+}
+ .h2::before{
+}
+section#products .wrap div article:nth-child(odd){
+transform:translateY(50px);
+}
+ section#products .wrap div article:first-child{
+  background-image: url(../img/paper_001.jpg);
+}
+ section#products .wrap div article:nth-child(2){
+  background-image: url(../img/paper_002.jpg);
+}
+ section#products .wrap div article:nth-child(3){
+  background-image: url(../img/paper_003.jpg);
+}
+ section#products .wrap div article:nth-child(4){
+  background-image: url(../img/paper_004.jpg);
+} section#products .wrap div article:nth-child(5){
+  background-image: url(../img/paper_005.jpg);
+}
+ section#products .wrap div article:nth-child(6){
+  background-image: url(../img/paper_006.jpg);
+} section#products .wrap div article:nth-child(7){
+  background-image: url(../img/paper_007.jpg);
+}
+ section#products .wrap div article{
+  width: 240px;
+  height: 600px;
+  background-position: bottom center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+ section#products .wrap div article figure {
+  width: 100%;
+  z-index: -1;
+}
+ section#products .wrap div article:first-child figure img{
+  width: 300px;
+}
+ section#products .wrap div article figure img{
+  display: none;
+}
+section#products .wrap div article p {
+  display: none;
+  line-height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+section#products .wrap div article:hover p{
+  display: initial;
+}
+
+ section#products .wrap div article a {
+  font-size: 0;
+}
+
+

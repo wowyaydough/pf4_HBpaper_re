@@ -1,0 +1,149 @@
+header {
+  background-color: rgba(255,255,255,0);
+  position: fixed;
+  width: 100%;
+}
+header .wrap {
+  height: 100px;
+  align-items: center;
+}
+header .wrap h1 {
+
+}
+header .wrap h1 a {
+
+  font-size: 0;
+  display: block;
+  width: 188px;
+  height: 33px;
+  background-image: url(../img/logo.png);
+}
+header .wrap ul {
+
+  position: fixed;
+  right: 20px;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+}
+header .wrap ul li {
+  text-align: right;
+}
+
+header .wrap ul li a {
+  display: block;
+  padding: 20px 10px 5px 100px;
+  border-bottom: 1px solid transparent;
+}
+header .wrap ul li a:hover{
+  border-bottom:1px solid black;
+}
+header .wrap ul li:nth-child(1) a::before{
+  content:"about";
+  color:transparent;
+  position: absolute;
+  right: 60%;
+  top: 26%;
+}
+header .wrap ul li a:hover::before{
+color:black;
+}
+header .wrap ul li a::before{
+  content:"";
+  color:transparent;
+  position: absolute;
+}
+header .wrap ul li:nth-child(1) a::before{
+  content:"About";
+  right: 60%;
+  top: 26%;
+}
+header .wrap ul li:nth-child(2) a::before{
+  content:"Business";
+  right: 43%;
+  top: 52%;
+}
+header .wrap ul li:nth-child(3) a::before{
+  content:"Product";
+  right: 50%;
+  top: 77%;
+}
+header .wrap ul li:nth-child(4) a::before{
+  content:"News";
+  right: 63%;
+  top: 102%;
+}
+header .wrap .sublist {
+  display: none;
+}
+header .wrap .sublist .menu1 {
+
+}
+header .wrap .sublist .menu1 h2 {
+
+}
+header .wrap .sublist .menu1 ul.useguide {
+
+}
+header .wrap .sublist .menu1 ul.useguide li {
+
+}
+header .wrap .sublist .menu1 ul.useguide li a {
+
+}
+header .wrap .sublist .menu2 {
+
+}
+header .wrap .sublist .menu2 h2 {
+
+}
+header .wrap .sublist .menu2 ul {
+
+}
+header .wrap .sublist .menu2 ul li {
+
+}
+header .wrap .sublist .menu2 ul li a {
+
+}
+header .wrap .sublist .menu3 {
+
+}
+header .wrap .sublist .menu3 h2 {
+
+}
+header .wrap .sublist .menu3 ul {
+
+}
+header .wrap .sublist .menu3 ul li {
+
+}
+header .wrap .sublist .menu3 ul li a {
+
+}
+header .wrap .sublist .menu4 {
+
+}
+header .wrap .sublist .menu4 h2 {
+
+}
+header .wrap .sublist .menu4 ul {
+
+}
+header .wrap .sublist .menu4 ul li {
+
+}
+header .wrap .sublist .menu4 ul li a {
+
+}
+header .wrap span.lang {
+
+  display: none;
+}
+header .wrap span.lang a {
+  display: block;
+}
+
+header .wrap span.lang a:nth-child(2){
+  display:none;
+}
