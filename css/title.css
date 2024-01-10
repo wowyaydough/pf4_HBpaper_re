@@ -1,7 +1,7 @@
 div#title {
   height: 100vh;
   animation-name:bground;
-  animation-duration:15s;
+  animation-duration:30s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
   min-height: 600px;
