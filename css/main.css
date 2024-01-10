@@ -59,7 +59,7 @@ section#business .wrap ul {
   margin-top: 150px;
 }
 section#business .wrap ul li {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(248,180,32,0.4);
   border-radius: 30px;
   width: 500px;
   height: 500px;
@@ -90,7 +90,7 @@ section#business .wrap ul li:nth-child(2):hover{
 }
 section#business .wrap ul li a p.p {
   font-size: 17px;
-  color: #181f25;
+  color: #CE8E05;
   font-weight: bold;
   margin-top: 15px;
 }

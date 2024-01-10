@@ -35,17 +35,20 @@ section#news .wrap ul li {
 
 }
 section#news .wrap ul li article {
-
   width: calc(100% / 4);
   /*! padding: 0 40px; */
   position: relative;
 }
-section#news .wrap ul li article a {
 
+section#news .wrap ul li article a {
   width: 372px;
   height: 300px;
   display: block;
 }
+section#news .wrap ul li article a:hover{
+  background-color:rgba(255,211,117,0.4);
+}  
+
 section#news .wrap ul li article:nth-child(1) a{
 background-image:url(../img/news_01.jpg);
 }
