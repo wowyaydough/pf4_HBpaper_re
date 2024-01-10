@@ -131,7 +131,7 @@
   font-size: calc(24px * 0.4);
 }
 .h6{
-  font-size: calc(20px * 0.5);
+  font-size: calc(20px * 0.65);
 }
 .p{
   font-size: calc(16px * 0.5);
@@ -157,6 +157,7 @@
   section#promotion .wrap h2{
   font-size: calc(18px * 0.7);
   left: 20px;
+  color: #f8b420;
   }
   
   section#promotion .wrap p{
@@ -172,7 +173,7 @@
   height: 50vh;
   }
   section#business .wrap h2{   
-  font-size: calc(18px * 0.7);
+  font-size: 18px;
   }
   
   section#business .wrap p.black30B{ 
