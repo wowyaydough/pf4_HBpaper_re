@@ -1,3 +1,24 @@
 @media screen and (max-width:980px){
-   
+  .vh100{
+  height: 70vh;
+  min-height: 400px;
+  }
+  .wrap{
+  max-width: 800px;
+  }
+/* business   */
+  section#business .wrap ul li a h3{
+  font-size: 60px;
+  }
+  
+/* footer   */
+  footer .wrap ul.pnb{
+  width: 50%;
+  }
+  
+  footer .wrap ul.pnb li a{  
+  font-size: 9px;
+  padding: 0;
+  margin: 0;
+  }
 }
