@@ -1,0 +1,141 @@
+@media screen and (max-width:1280px){
+  .vh100{
+  height: 80vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  }
+  
+.h1{
+  font-size: calc(64px * 0.85);
+}
+.h2{
+  font-size: calc(54px * 0.85);
+}
+.h3{
+  font-size: calc(44px * 0.85);
+}
+.h4{
+  font-size: calc(34px * 0.85);
+}
+.h5{
+  font-size: calc(24px * 0.85);
+}
+.h6{
+  font-size: calc(20px * 0.85);
+}
+.p{
+}
+.p14{
+  font-size: calc(14px * 0.85);
+}
+  .wrap{
+  padding: 10px 15px !important;
+  max-width: 1000px;
+  }
+  header .wrap span.lang{ 
+  display: none;
+  }
+  
+/*  타이틀  */
+  div#title{
+  background-repeat: no-repeat;
+  }
+  
+/* promotion   */
+  
+  section#promotion .wrap h2{
+    
+  padding-top: 0;
+  }
+  
+  section#promotion .wrap iframe{
+  width: calc((100vw - 30px) * 0.8);
+  height: calc(36.25vw * 0.8);
+  }
+section#promotion .wrap p::after{
+  width: 40vw;
+  }
+/*  business  */
+  section#business .wrap h2{  
+  }
+  
+  section#business .wrap p.black30B{
+  }
+  section#business .wrap ul{
+    
+  margin-top: 0;
+  }
+  section#business .wrap ul li{
+  width: calc(80vw * 0.35);
+  height: calc(80vw * 0.35);
+  margin-top: 40px;
+  }
+  
+/* products   */
+  section#products .wrap h2{
+
+  }
+    section#products .wrap h3{
+  }
+  section#products .wrap div{
+  padding-bottom: 0;
+  margin-top: 40px;
+  }
+  section#products .wrap div article{
+  width: 132px;
+  height: 450px;
+  }
+  
+  
+  
+/*  news  */
+  section#news .wrap{
+  margin-top: 0px;
+  }
+  section#news .wrap hgroup{
+    
+  padding-top: 0;
+  padding-bottom: 0;
+  }
+  section#news .wrap hgroup h2{
+  top: 0;
+  left: 15px;
+  }
+  
+  section#news .wrap hgroup h3{
+  padding: 0;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  }
+  section#news .wrap ul li{
+    
+  width: 954px;
+  }
+  section#news .wrap ul li article{
+    
+  }
+  section#news .wrap ul li article a p.text{
+  width: 100%;
+  line-height: 20px;
+  font-size: 13px;
+  }
+  
+/*  footer  */
+  footer .wrap ul.pnb{
+  width: 51%;
+  }
+  footer .wrap ul.pnb li a{
+  font-size: 13px;
+  }
+  
+    footer .wrap .fnb{
+    
+  }
+  footer .wrap p{
+  margin-bottom: 20px;
+  }
+  
+
+}

@@ -21,10 +21,15 @@ header .wrap h1 a {
 header .wrap ul {
 
   position: fixed;
-  right: 20px;
+  right: 0;
   top: 40%;
   display: flex;
   flex-direction: column;
+  background-color: rgba(255,211,117,0.4);
+  border-radius: 10px 0 0 10px;
+  line-height: 2;
+  overflow: hidden;
+  z-index: 1;
 }
 header .wrap ul li {
   text-align: right;
@@ -32,47 +37,16 @@ header .wrap ul li {
 
 header .wrap ul li a {
   display: block;
-  padding: 20px 10px 5px 100px;
-  border-bottom: 1px solid transparent;
+  line-height: 2;
+  padding: 8px 20px;
+  text-align: left;
+  transition: 0.5s;
+  color: #694904;
 }
 header .wrap ul li a:hover{
-  border-bottom:1px solid black;
+ background-color: #ccc;
 }
-header .wrap ul li:nth-child(1) a::before{
-  content:"about";
-  color:transparent;
-  position: absolute;
-  right: 60%;
-  top: 26%;
-}
-header .wrap ul li a:hover::before{
-color:black;
-}
-header .wrap ul li a::before{
-  content:"";
-  color:transparent;
-  position: absolute;
-}
-header .wrap ul li:nth-child(1) a::before{
-  content:"About";
-  right: 60%;
-  top: 26%;
-}
-header .wrap ul li:nth-child(2) a::before{
-  content:"Business";
-  right: 43%;
-  top: 52%;
-}
-header .wrap ul li:nth-child(3) a::before{
-  content:"Product";
-  right: 50%;
-  top: 77%;
-}
-header .wrap ul li:nth-child(4) a::before{
-  content:"News";
-  right: 63%;
-  top: 102%;
-}
+
 header .wrap .sublist {
   display: none;
 }
@@ -147,3 +121,18 @@ header .wrap span.lang a {
 header .wrap span.lang a:nth-child(2){
   display:none;
 }
+
+  .ham{ 
+  height: 29px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  }
+  
+  .ham span{
+  background-color: black;
+  width: 25px;
+  height: 3px;
+  display: block;
+  }

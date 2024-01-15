@@ -6,7 +6,6 @@ footer .wrap {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  padding-bottom: 50px;
   max-width: 100%;
   padding: 0 calc((100% - 1520px) / 2);
   overflow: hidden;
@@ -24,6 +23,7 @@ footer .wrap ul.pnb li {
 }
 footer .wrap ul.pnb li a {
   color: white;
+  font-size: 14px;
 }
 footer .wrap ul.pnb li:not(:first-child) a{
 padding:0 15px;  
@@ -47,7 +47,11 @@ footer .wrap .flex ul.fnb li a {
   padding: 10px 10px;
 }
 footer .wrap .flex select {
-
+  background-color: rgba(0,0,0,0);
+  color: white;
+  border: 1px solid;
+  padding: 6px;
+  border-radius: 19px;
 }
 footer .wrap .flex select option {
 
@@ -64,14 +68,17 @@ footer .wrap a.blog {
 footer .wrap address {
   color: white;
   width: 100%;
-  /*! margin-top: 30px; */
+  font-size: 14px;
+  margin-top: 3px;
 }
 footer .wrap address::before{
  content:""; 
  width: 100vw;
  display: block;
  border-top: 1px solid white;
+ margin-bottom: 15px;
  }
 footer .wrap p {
   color: white;
+  font-size: 14px;
 }
