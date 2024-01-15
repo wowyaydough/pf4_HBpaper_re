@@ -1,14 +1,16 @@
 @media screen and (max-width:368px){
   .vh100{
-  height: 50vh;
+  height: 62vh;
   min-height: 500px;
   }
   .wrap{
   max-width: 300px;
   }
+  
 .h1{
   font-size: calc(64px * 0.4);
 }
+
 .h2{
   font-size: calc(54px * 0.7);
 }
@@ -32,15 +34,27 @@
 }
   
   /*  header  */
+  
   header .wrap ul{
   display: none;
   }
+  
+  div#title .wrap .stxt{
+    
+  }
+  
+  
 /*  title  */
   div#title{
   height: 70vh;
   min-height: 0;
   }
-  
+  div#title .wrap .txt_T{
+    
+  }
+  div#title .wrap .txt_B{
+    
+  }
 /*   promotion   */
   section#promotion{
   }
@@ -125,8 +139,6 @@
   
   section#products{
     
-  height: 110vw;
-  min-height: 0;
   }
   section#products .wrap h2{
   top: 10px;
@@ -148,9 +160,9 @@
   section#products .wrap div article{
   display: initial;
   width: 140px;
-  margin: 5px 0;
-  height: 107px;
+  height: 70px;
   display: flex;
+  background-size: 80%;
   }
   
   section#products .wrap div article:first-child{
@@ -183,8 +195,6 @@
   
 /*  news  */
   section#news{
-  min-height: 0;
-  height: 600px;
   }
   
   section#news .wrap{
@@ -192,17 +202,27 @@
   margin-top: 0;
   }
   section#news .wrap hgroup{
-  padding-bottom: 80px;
-  }
   
+  }  
+  section#news .wrap hgroup h2{
+    
+  }
+  section#news .wrap hgroup h3{
+    
+  }
+  section#news .wrap ul{
+    
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
   section#news .wrap ul li{
   display: initial;
   }
   
   section#news .wrap ul li article{
-  margin-bottom: 50px;
-  width: calc(100vw - 30px);
-  height: 4vw;
+  width: 100%;
+  height: 100px;
   }
   section#news .wrap ul li article a{
   background-repeat: no-repeat;
@@ -211,7 +231,7 @@
   
   section#news .wrap ul li article a p.p{  
   font-size: 13px;
-  bottom: 52px;
+  bottom: 74px;
   left: 1px;
   }
   section#news .wrap ul li article a p.text{
@@ -223,7 +243,7 @@
     display: block;
     border: 19px solid transparent;
     border-left-color: rgba(0,0,0,0.4);
-    transform: translatey(-66px) translatex(262px);
+    transform: translatey(-70px) translatex(234px);
   }
   /* footer */
   footer .wrap ul.pnb{
@@ -233,9 +253,23 @@
   footer .wrap ul.pnb li{
   }
   footer .wrap ul.pnb li a{
+  font-size: 9px;
   }
+
   footer .wrap .flex ul.fnb{
   display: none;
   }
-  footer .wrap ul.pnb li:nth-child(n) a{padding: 0 6px 0 0;}
+  footer .wrap ul.pnb li:nth-child(n) a{
+    padding: 0 6px 0 0;
+  }
+  footer .wrap .flex select{
+  font-size: 9px;
+  }
+  footer .wrap address{
+    font-size: 9px;
+  }
+  footer .wrap p{
+    
+  font-size: 9px;
+  }
 }
